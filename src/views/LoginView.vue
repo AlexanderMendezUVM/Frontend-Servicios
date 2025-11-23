@@ -37,10 +37,8 @@ const tokenStore = useTokenStore();
 
 const API = 'https://backend-servicios.vercel.app';
 const user = reactive({
-   "email":"alex20@gmail.com",
-   "password":"123"
-  //"email":"",
-  //"password":""
+  "email":"",
+  "password":""
 });
 
 const enviar = async () => {
